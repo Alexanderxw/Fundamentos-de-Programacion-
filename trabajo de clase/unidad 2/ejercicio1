@@ -1,0 +1,21 @@
+
+	package a2253332359_practicas6;
+
+
+	import java.io.*;
+
+	public class ejercicio1 {
+	    public static void main(String[] args) throws IOException {
+
+	        BufferedReader entrada =
+	                new BufferedReader(new InputStreamReader(System.in));
+
+	        double area,base,altura;
+	        System.out.print("Base: ");
+	        base = Integer.parseInt(entrada.readLine());
+	        System.out.print("Altura: ");
+	        altura = Float.parseFloat(entrada.readLine());
+	        area = base * altura;
+	        System.out.println("Area = " + area);
+	    }
+	}
